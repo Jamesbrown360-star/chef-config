@@ -1,0 +1,12 @@
+{
+  "id": "dv",
+  "password": "$1$mYaxqDCj$taxwiXDQgiJkKCX5ILd7J1",
+  "ssh_keys": [
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC4yBrMj/V9oBtF0BF7n8yCoHmV0/vZpI5iVQB0S8jOARihSfEzgRCUHVLuNEa2pH4gbyGray78Ly30Nl6f/KFL4DbGfy2wQ99sfHQvbDwoCt8m8xN9Fe2wcy+OtBQksSC5/ammU1pUCR0Rd/qJluxGyOlefFJXLW7VIYtLeFjGXnsaGqfIrOUoUr98MJAw1kSnThjgG2EfGLeDC28I/LI1rXCkJEvk4lLbYYpcK//ImR6BOSsj0wFQyJKA6E2+0wJ5Vhv1y8etqScEjCyIlJpqBicYRb/l7IOL9Uvt/qxwLpn8AFaVp/pWE0WV/TxhGXG6DxUaD72Ycnbb00T5ZDbH dv@chef-1.thedimi.net"
+  ],
+  "groups": [ "sysadmin", "dba", "devops" ],
+  "uid": 2001,
+  "shell": "\/bin\/bash",
+  "comment": "dv",
+  "openid": "vindimy.myopenid.com"
+}
