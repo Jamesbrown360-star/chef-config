@@ -4,6 +4,7 @@ run_list(
   "recipe[apache2]",
   "recipe[apache2::mod_ssl]",
   "recipe[apache2::mod_php5]",
+  "recipe[php::module_mysql]",
   "recipe[app_tipbot::httpd]"
 )
 override_attributes(

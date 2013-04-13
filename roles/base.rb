@@ -6,13 +6,21 @@ run_list(
   "recipe[sudo]",
   "recipe[apt]",
   "recipe[git]",
-  "recipe[build-essential]"
+  "recipe[build-essential]",
+  "recipe[ruby]",
+  "recipe[python]"
 )
+
 override_attributes(
   :authorization => {
     :sudo => {
       :users => ["ubuntu"],
       :passwordless => true
+    }
+  },
+  :languages => {
+    :ruby => {
+      :default_version => "1.9.1"
     }
   }
 )
