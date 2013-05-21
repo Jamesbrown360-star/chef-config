@@ -11,6 +11,7 @@ override_attributes(
     "server_root_password" => "pXEvdTNFstsyuQZb",
     "server_repl_password" => "t7cPKqSjWvAT8mqd",
     "server_debian_password" => "FpcFjQK2EjCWQNtx",
+    "bind_address" => "0.0.0.0",
     "tunable" => {
       "wait_timeout" => "3600"
     }
