@@ -1,4 +1,4 @@
-name "python_tipbot"
+name "tipbot_python"
 description "Role to deploy python language for tip bot"
 run_list(
   "recipe[python]",

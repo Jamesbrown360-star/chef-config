@@ -1,4 +1,4 @@
-name "mysql_tipbot"
+name "tipbot_mysql"
 description "Role to deploy MySQL database for tip bot"
 
 run_list(

@@ -1,4 +1,4 @@
-name "httpd_tipbot"
+name "tipbot_httpd"
 description "Role to deploy MySQL database for tip bot"
 run_list(
   "recipe[apache2]",
