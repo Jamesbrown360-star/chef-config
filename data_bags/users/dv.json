@@ -2,7 +2,7 @@
   "id": "dv",
   "password": "$1$mYaxqDCj$taxwiXDQgiJkKCX5ILd7J1",
   "ssh_keys": [
-    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC4yBrMj/V9oBtF0BF7n8yCoHmV0/vZpI5iVQB0S8jOARihSfEzgRCUHVLuNEa2pH4gbyGray78Ly30Nl6f/KFL4DbGfy2wQ99sfHQvbDwoCt8m8xN9Fe2wcy+OtBQksSC5/ammU1pUCR0Rd/qJluxGyOlefFJXLW7VIYtLeFjGXnsaGqfIrOUoUr98MJAw1kSnThjgG2EfGLeDC28I/LI1rXCkJEvk4lLbYYpcK//ImR6BOSsj0wFQyJKA6E2+0wJ5Vhv1y8etqScEjCyIlJpqBicYRb/l7IOL9Uvt/qxwLpn8AFaVp/pWE0WV/TxhGXG6DxUaD72Ycnbb00T5ZDbH dv@chef-1.thedimi.net"
+    "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAxZDHRWOGZuLIsqoxd3wpczP/FlgQQGT1STvgRxRjdNoWgsV9S2Ur5bRQYV8dqumgb5EBmv6feP/y3LnD071m4rYdInGBCXp7qzkhh9yxMmpBf/9JHS6hXwGxxxhbXWiwGU18lAD5FOf6gnba+6tbnSq7ZUsBEjfnsklGMm59qFz5HLbUPR+e7N9CD3oyXiva6jptrgszaP1Eo6PSmDSlFgiaeCV7LCatLjnf9YQxu6V2hmAqpnvkhSEPEz8CyhgdUVAfnCnhpCTNbDwO+iNkl16D1NemIeK2K0FOTCejNyQ7KZJdu6xiqbTHNvQtc4meWYFBeqiFfompZMH4v7+aIw== dv@chef-1.localdomain"
   ],
   "groups": [ "sysadmin", "dba", "devops" ],
   "uid": 2001,
