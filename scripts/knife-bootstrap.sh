@@ -10,11 +10,11 @@ if [ -z "$run_list" ] ; then
 fi
 
 # Set FQDN on the host and remove /etc/chef directory if present
-ssh root@$fqdn "hostname $fqdn; echo $fqdn > /etc/hostname; rm -rf /etc/chef" || exit 2
+#ssh root@$fqdn "hostname $fqdn; echo $fqdn > /etc/hostname; rm -rf /etc/chef" || exit 2
 
 # Delete previous node and client record(s)
-knife node delete $fqdn
-knife client delete $fqdn
+#knife node delete $fqdn
+#knife client delete $fqdn
 
 # Bootstrap
 echo knife bootstrap $fqdn -N $fqdn -E $chef_environment -x root -r "$run_list" 
