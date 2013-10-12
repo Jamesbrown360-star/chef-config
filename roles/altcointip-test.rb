@@ -1,4 +1,4 @@
-name 'altcointip'
+name 'altcointip-test'
 description 'Role to set up altcointip, Reddit altcoin tip bot'
 
 default_attributes(
@@ -23,16 +23,16 @@ default_attributes(
     # Attributes are defined in altcointip cookbook
     :cryptocoins => {
       :bitcoin => {
-        :enabled => true
+        :enabled => false
       },
       :litecoin => {
-        :enabled => true
+        :enabled => false
       },
       :namecoin => {
-        :enabled => true
+        :enabled => false
       },
       :ppcoin => {
-        :enabled => true
+        :enabled => false
       },
       :primecoin => {
         :enabled => true
@@ -45,16 +45,16 @@ default_attributes(
     # Attributes are defined in altcointip cookbook
     :cron => {
       :stats => {
-        :enabled => true
+        :enabled => false
       },
       :backup_config => {
-        :enabled => true
+        :enabled => false
       },
       :backup_db => {
-        :enabled => true
+        :enabled => false
       },
       :backup_wallets => {
-        :enabled => true
+        :enabled => false
       }
     }
   }
