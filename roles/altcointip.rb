@@ -38,7 +38,7 @@ default_attributes(
         :enabled => true
       },
       :feathercoin => {
-        :enabled => true
+        :enabled => false
       }
     },
     # Use this section to control cron jobs
