@@ -8,7 +8,8 @@ default_attributes(
     # Attributes are defined in altcointip cookbook
     :cryptocoins => {
       :ppcoin => {
-        :enabled => true
+        :enabled => true,
+        :group => 'ppcoin'
       }
     }
   }
