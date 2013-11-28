@@ -39,6 +39,9 @@ default_attributes(
       },
       :feathercoin => {
         :enabled => false
+      },
+      :megacoin => {
+        :enabled => true
       }
     },
     # Use this section to control cron jobs
@@ -62,6 +65,7 @@ default_attributes(
 
 run_list(
   'recipe[altcointip::default]',
+  'recipe[altcointip::coins]',
   'recipe[altcointip::database]',
   'recipe[altcointip::phpmyadmin]'
 )

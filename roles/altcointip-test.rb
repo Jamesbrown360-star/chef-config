@@ -62,6 +62,7 @@ default_attributes(
 
 run_list(
   'recipe[altcointip::default]',
+  'recipe[altcointip::coins]',
   'recipe[altcointip::database]',
   'recipe[altcointip::phpmyadmin]'
 )
