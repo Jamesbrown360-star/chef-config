@@ -9,43 +9,53 @@ default_attributes(
     :cryptocoins => {
       :ixcoin => {
         :enabled => true,
-        :group => 'ixcoin'
+        :group => 'ixcoin',
+        :extra_config => { :rpcallowip => '10.*' }
       },
       :i0coin => {
         :enabled => true,
-        :group => 'i0coin'
+        :group => 'i0coin',
+        :extra_config => { :rpcallowip => '10.*' }
       },
       :bbqcoin => {
         :enabled => true,
-        :group => 'bbqcoin'
+        :group => 'bbqcoin',
+        :extra_config => { :rpcallowip => '10.*' }
       },
       :digitalcoin => {
         :enabled => true,
-        :group => 'digitalcoin'
+        :group => 'digitalcoin',
+        :extra_config => { :rpcallowip => '10.*' }
       },
       :securecoin => {
         :enabled => true,
-        :group => 'securecoin'
+        :group => 'securecoin',
+        :extra_config => { :rpcallowip => '10.*' }
       },
       :stablecoin => {
         :enabled => false,
-        :group => 'stablecoin'
+        :group => 'stablecoin',
+        :extra_config => { :rpcallowip => '10.*' }
       },
       :infinitecoin => {
         :enabled => true,
-        :group => 'infinitecoin'
+        :group => 'infinitecoin',
+        :extra_config => { :rpcallowip => '10.*' }
       },
       :mincoin => {
         :enabled => true,
-        :group => 'mincoin'
+        :group => 'mincoin',
+        :extra_config => { :rpcallowip => '10.*' }
       },
       :quarkcoin => {
         :enabled => true,
-        :group => 'quarkcoin'
+        :group => 'quarkcoin',
+        :extra_config => { :rpcallowip => '10.*' }
       },
       :zetacoin => {
         :enabled => true,
-        :group => 'zetacoin'
+        :group => 'zetacoin',
+        :extra_config => { :rpcallowip => '10.*' }
       }
     }
   }
