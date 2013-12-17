@@ -50,10 +50,6 @@ default_attributes(
       :yacoin => {
         :enabled => true,
         :group => 'yacoin'
-      },
-      :dogecoin => {
-        :enabled => true,
-        :group => 'dogecoin'
       }
     }
   }
