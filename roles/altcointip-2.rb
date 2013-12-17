@@ -46,10 +46,6 @@ default_attributes(
       :zetacoin => {
         :enabled => true,
         :group => 'zetacoin'
-      },
-      :yacoin => {
-        :enabled => true,
-        :group => 'yacoin'
       }
     }
   }
