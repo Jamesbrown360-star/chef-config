@@ -33,7 +33,7 @@ default_attributes(
         :extra_config => { :rpcallowip => '10.*' }
       },
       :stablecoin => {
-        :enabled => false,
+        :enabled => true,
         :group => 'stablecoin',
         :extra_config => { :rpcallowip => '10.*' }
       },
