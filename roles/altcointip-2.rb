@@ -12,11 +12,6 @@ default_attributes(
         :group => 'ixcoin',
         :extra_config => { :rpcallowip => '10.*' }
       },
-      :i0coin => {
-        :enabled => true,
-        :group => 'i0coin',
-        :extra_config => { :rpcallowip => '10.*' }
-      },
       :bbqcoin => {
         :enabled => true,
         :group => 'bbqcoin',
@@ -25,11 +20,6 @@ default_attributes(
       :digitalcoin => {
         :enabled => true,
         :group => 'digitalcoin',
-        :extra_config => { :rpcallowip => '10.*' }
-      },
-      :securecoin => {
-        :enabled => true,
-        :group => 'securecoin',
         :extra_config => { :rpcallowip => '10.*' }
       },
       :stablecoin => {
